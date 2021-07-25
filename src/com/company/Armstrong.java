@@ -7,7 +7,7 @@ public class Armstrong {
         System.out.println("Add a number: ");
         int number = new Scanner(System.in).nextInt();
 
-        System.out.println("is nubmer Armstrong ?: " + isArmstrong(number));
+        System.out.println("is number Armstrong ?: " + isArmstrong(number));
 
     }
 

@@ -11,6 +11,8 @@ public class GreatCommonDivisor {
         int b = new Scanner(System.in).nextInt();
 
         System.out.println("greatest common divisor is : "+ greatCommonDiv(a,b));
+
+        System.out.println("greatest common divisor is strange  : "+ findGCD(a,b));
     }
 
     public static int greatCommonDiv(int a, int b){
@@ -21,6 +23,14 @@ public class GreatCommonDivisor {
             }
             i--;
         }
-        return i;
+        return 1;
+    }
+
+    private static int findGCD(int number1, int number2) {
+        //base case
+        if(number2 == 0){
+            return number1;
+        }
+        return findGCD(number2, number1%number2);
     }
 }

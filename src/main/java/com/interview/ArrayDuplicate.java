@@ -1,4 +1,4 @@
-package com.company;
+package com.interview;
 
 public class ArrayDuplicate {
     public static void main(String[] args) {

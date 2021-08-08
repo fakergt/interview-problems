@@ -1,4 +1,4 @@
-package com.company;
+package com.interview.reverse;
 
 import java.util.Scanner;
 
@@ -11,7 +11,6 @@ public class ReverseWords {
     }
 
     private static String reverseString(String sentence) {
-//        StringBuilder reversed= new StringBuilder();
         StringBuilder reversed = new StringBuilder();
         String[] words = sentence.split(" ");
         for (int i = words.length; i > 0; i--) {

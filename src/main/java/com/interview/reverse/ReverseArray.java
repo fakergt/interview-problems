@@ -1,4 +1,4 @@
-package com.company;
+package com.interview.reverse;
 
 public class ReverseArray {
     public static void main(String[] args) {

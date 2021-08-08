@@ -1,4 +1,4 @@
-package com.company;
+package com.interview.reverse;
 
 import java.util.Scanner;
 

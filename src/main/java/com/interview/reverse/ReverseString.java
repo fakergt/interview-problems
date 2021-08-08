@@ -1,8 +1,8 @@
-package com.company;
+package com.interview.reverse;
 
 import java.util.Scanner;
 
-public class StringReverse {
+public class ReverseString {
     public static void main(String[] args) {
         System.out.println("Add a string to reverse: ");
         String string = new Scanner(System.in).nextLine();

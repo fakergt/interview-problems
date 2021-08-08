@@ -1,4 +1,4 @@
-package com.company;
+package com.interview.math;
 
 public class PrimeNumbers {
 

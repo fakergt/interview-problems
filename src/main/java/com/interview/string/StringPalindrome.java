@@ -1,4 +1,4 @@
-package com.interview;
+package com.interview.string;
 
 import java.util.Scanner;
 
